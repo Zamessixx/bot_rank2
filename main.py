@@ -48,15 +48,15 @@ async def button_4_click(message: types.Message):
 
 @dp.message_handler(commands= 'low_ranks')
 async def low_ranks(message: types.Message):
-    await bot.send_photo(message.chat.id, photo='https://museum-kam.ru/800/600/https/pp.userapi.com/c845017/v845017679/7f50/zLeFspDZyi8.jpg', caption='Низшые звания', reply_markup=get_keyboard_inline3())
+    await bot.send_photo(message.chat.id, photo='https://armiyapro.ru/images/wp-content/uploads/2021/03/Mladshij.jpg', caption='Низшые звания', reply_markup=get_keyboard_inline3())
 
 @dp.message_handler(commands= 'middle_ranks')
 async def middle_ranks(message: types.Message):
-    await bot.send_photo(message.chat.id, photo='https://museum-kam.ru/800/600/https/pp.userapi.com/c845017/v845017679/7f50/zLeFspDZyi8.jpg', caption='Средние звания', reply_markup=get_keyboard_inline4())
+    await bot.send_photo(message.chat.id, photo='https://armiyapro.ru/images/wp-content/uploads/2021/03/Srednij.jpg', caption='Средние звания', reply_markup=get_keyboard_inline4())
 
 @dp.message_handler(commands= 'highest_ranks')
 async def highest_ranks(message: types.Message):
-    await bot.send_photo(message.chat.id, photo='https://museum-kam.ru/800/600/https/pp.userapi.com/c845017/v845017679/7f50/zLeFspDZyi8.jpg', caption='Высшие звания', reply_markup=get_keyboard_inline5())
+    await bot.send_photo(message.chat.id, photo='https://armiyapro.ru/images/wp-content/uploads/2021/03/Vysshij.jpg', caption='Высшие звания', reply_markup=get_keyboard_inline5())
 
 
 
